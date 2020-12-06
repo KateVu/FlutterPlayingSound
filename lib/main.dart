@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return Expanded(
       child: FlatButton(
         color: color,
-        child: Text('Click here to hear the sound'),
+        child: Text('Click to hear the sound'),
         onPressed: () {
           playSound(soundNumber);
         },
